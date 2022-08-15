@@ -7,7 +7,7 @@ services:
       volumes:
         - changedetection-data:/datastore
 
-  #    environment:
+      environment:
   #        Default listening port, can also be changed with the -p option
   #      - PORT=5000
 
